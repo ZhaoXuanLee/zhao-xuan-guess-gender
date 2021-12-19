@@ -16,8 +16,7 @@
     <label for="name">Name:</label>
     <input id="user_name" bind:value={user_name} type="text" />
     <button type="submit">Check</button>
-    <label for="gender">Gender:</label>
 </form>
 
-<p>{gender}</p>
+<p>Gender: {gender}</p>
 
